@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: bold;
+  color: tomato !important;
+}
+p {
+  margin: 2px !important;
+  /* text-align: left; */
+  padding: 0;
+}
+.btn1 {
+  border-color: #f1c40f;
+  color: #042743;
+  box-shadow: none;
+  border: 2px solid #f1c40f;
+  border-radius: 3px;
+  background-color: #fff;
+  background-image: linear-gradient(
+    45deg,
+    #f1c40f 50%,
+    transparent 50%
+  ) !important;
+  width: 80px;
+  background-position: 100%;
+  background-size: 400%;
+  transition: background 300ms ease-in-out;
+}
+.btn1:hover {
+  background-position: 0;
+}
+.header {
+  height: 65px;
+  padding: 10px;
+  background-color: #042743;
+}
+.header .ant-btn {
+  border-color: #0ff1ed;
+  color: #fff;
+  box-shadow: none;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(17, 68, 146);
+  background-image: linear-gradient(
+    45deg,
+    #0ff1ed 50%,
+    transparent 50%
+  ) !important;
+  width: 80px;
+  background-position: 100%;
+  background-size: 400%;
+  transition: background 300ms ease-in-out;
+}
+.header .ant-btn :hover {
+  color: #000;
+  background-position: 0;
+}
+
+.footer {
+  margin-top: 100px;
+}
+.content {
+  min-height: 90vh;
+  background-color: #fff;
+}
+
+.carimg {
+  height: 160px;
+  width: 222px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.5s ease;
+}
+.carimg:hover {
+  transform: scale(1.06);
+}
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 9999;
+}
+.car {
+  background-color: #fff;
+  margin: 2vh;
+  width: 240px;
+  text-align: center;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%),
+    0 1px 5px 0 rgb(0 0 0 / 20%);
+  font-size: 11px;
+}
+.login {
+  background-color: #fff;
+  min-height: 100vh;
+  padding-top: 80px;
+}
+.login-form {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 8px;
+}
+
+.login-form input {
+  background-color: #f1f5f9;
+  border: none;
+  border-radius: 8px;
+}
+.login-logo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 80%;
+  bottom: 50%;
+  transform: translate(40%, 50%);
+  font-size: 40px;
+  color: #f1c40f !important;
+}
+
+.carimg2 {
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.btnuser {
+  color: #000 !important;
+  background-image: linear-gradient(
+    45deg,
+    #f1c40f 50%,
+    transparent 50%
+  ) !important;
+  background-position: 100%;
+  background-size: 400%;
+  transition: background 300ms ease-in-out;
+}
+.btnuser:hover {
+  background-position: 0;
+}
+
+.userbooking {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
