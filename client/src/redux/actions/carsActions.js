@@ -1,11 +1,14 @@
 import axios from "axios";
 import { message } from "antd";
+const API = axios.create({
+  baseURL: "https://zooprides-api.herokuapp.com/api/",
+});
 
 export const getAllCars = () => async (dispatch) => {
   dispatch({ type: "LOADING", payload: true });
 
   try {
-    const response = await axios.get("bikes/getallbikes");
+    const response = await API.get("bikes/getallbikes");
 
     dispatch({ type: "GET_ALL_CARS", payload: response.data });
     dispatch({ type: "LOADING", payload: false });
@@ -19,7 +22,7 @@ export const addBike = (reqObj) => async (dispatch) => {
   dispatch({ type: "LOADING", payload: true });
 
   try {
-    await axios.post("/bikes/addbike", reqObj);
+    await API.post("/bikes/addbike", reqObj);
 
     dispatch({ type: "LOADING", payload: false });
     message.success("New car added successfully");
@@ -36,7 +39,7 @@ export const editBike = (reqObj) => async (dispatch) => {
   dispatch({ type: "LOADING", payload: true });
 
   try {
-    await axios.post("/bikes/editbike", reqObj);
+    await API.post("/bikes/editbike", reqObj);
 
     dispatch({ type: "LOADING", payload: false });
     message.success("Car details updated successfully");
@@ -53,7 +56,7 @@ export const deleteBike = (reqObj) => async (dispatch) => {
   dispatch({ type: "LOADING", payload: true });
 
   try {
-    await axios.post("/bikes/deletebike", reqObj);
+    await API.post("/bikes/deletebike", reqObj);
 
     dispatch({ type: "LOADING", payload: false });
     message.success("Car deleted successfully");
