@@ -60,19 +60,19 @@ function Footer() {
       <div className={styles.Footer__desc}>
         <h2>Travel Solo and Travel Safely with Bike Rentals in Ranchi</h2>
         <p>
-          Royal Brothers is the first startup to obtain a license to operate
-          bike rentals in Ranchi. We offer a wide variety of vehicles starting
-          from scooters such as Activa, Dio, Aprilia SR, TVS Ntorq, Ather,
-          Aviator to powerful bikes such as Royal Enfield Classic 350, KTM Duke
-          200, BMW, Yamaha Fazer etc. With the mission to “Reimagine mobility
-          powered by trust”, our single point of focus has been to provide a
-          seamless customer experience. Royal Brothers is now providing our
-          customers a safer way to travel and commute. We have made safety as
-          our top priority. We are ensuring the two wheelers are sanitized
-          before every ride. We are also providing Zero Contact Home Delivery so
-          that our customers do not have to step out of the house. All our team
-          members use masks and gloves to ensure higher customer safety. All
-          these measures ensure that we provide safe bikes for rent in Ranchi.
+          ZoopRides is the first startup to obtain a license to operate bike
+          rentals in Ranchi. We offer a wide variety of vehicles starting from
+          scooters such as Activa, Dio, Aprilia SR, TVS Ntorq, Ather, Aviator to
+          powerful bikes such as Royal Enfield Classic 350, KTM Duke 200, BMW,
+          Yamaha Fazer etc. With the mission to “Reimagine mobility powered by
+          trust”, our single point of focus has been to provide a seamless
+          customer experience. ZoopRides is now providing our customers a safer
+          way to travel and commute. We have made safety as our top priority. We
+          are ensuring the two wheelers are sanitized before every ride. We are
+          also providing Zero Contact Home Delivery so that our customers do not
+          have to step out of the house. All our team members use masks and
+          gloves to ensure higher customer safety. All these measures ensure
+          that we provide safe bikes for rent in Ranchi.
         </p>
         <h2>Hire a Bike in Ranchi for Easy Commute</h2>
         <p>
@@ -93,19 +93,19 @@ function Footer() {
           The use case for bikes on rent in Ranchi is many fold. Our customers
           rent vehicles to run daily errands and commute within the city. We
           have offerings ranging from a few hours to months (Monthly Bike
-          Rental). A person who is new to the city uses Royal Brothers bike
-          rentals to navigate the city and also house hunting. More powerful two
-          wheeler alternatives such as Royal Enfield Himalayan, Bajaj Avenger,
-          Dominar, etc is used to go on weekend long rides. Ranchi has a lot of
-          tourist attractions nearby (One Day Trips Near Ranchi) which makes it
-          a prime spot to start your weekend getaway through hiring a bike in
-          Ranchi from Royal Brothers. Our offering also extends to electric
-          bikes for rent in Ranchi to cater to the environmentally cautious
-          users. Such as Yobykes Drift, Pure EV Epluto, etc. We have customers
-          who also use bike rentals in Ranchi to test ride vehicles that they
-          are interested in buying. Booking a weekend trip allows the customers
-          to explore everything that a particular bike has to offer. You can
-          travel solo and travel safely with Royal Brothers.
+          Rental). A person who is new to the city uses ZoopRides bike rentals
+          to navigate the city and also house hunting. More powerful two wheeler
+          alternatives such as Royal Enfield Himalayan, Bajaj Avenger, Dominar,
+          etc is used to go on weekend long rides. Ranchi has a lot of tourist
+          attractions nearby (One Day Trips Near Ranchi) which makes it a prime
+          spot to start your weekend getaway through hiring a bike in Ranchi
+          from ZoopRides. Our offering also extends to electric bikes for rent
+          in Ranchi to cater to the environmentally cautious users. Such as
+          Yobykes Drift, Pure EV Epluto, etc. We have customers who also use
+          bike rentals in Ranchi to test ride vehicles that they are interested
+          in buying. Booking a weekend trip allows the customers to explore
+          everything that a particular bike has to offer. You can travel solo
+          and travel safely with ZoopRides.
         </p>
       </div>
       <div className={styles.Footer__end}>
