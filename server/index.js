@@ -17,6 +17,6 @@ app.use("/api/users/", UserRoute);
 app.use("/api/bookings/", BookingRoute);
 app.use("/api/admin/", AdminLoginRoute);
 
-app.get("/", (req, res) => res.send("hello bubu"));
+app.get("/", (req, res) => res.send("Hello Pumpkin"));
 
 app.listen(port, () => console.log(`server running on port ${port}`));
