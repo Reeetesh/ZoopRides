@@ -86,7 +86,7 @@ function BookingBike({ match }) {
             dashed
             style={{ borderColor: "tomato", borderWidth: "0px" }}
           >
-            Car Info
+            Bike Info
           </Divider>
           <div style={{ textAlign: "right" }}>
             <p>{car.name}</p>
